@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Translator - Text to Speech Service</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">VoiceTranslator</div>
+            <button id="open-translator" class="translator-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 8l6 6"></path>
+                    <path d="M4 14l6-6 2-3"></path>
+                    <path d="M2 5h12"></path>
+                    <path d="M7 2h1"></path>
+                    <path d="M22 22l-5-10-5 10"></path>
+                    <path d="M14 18h6"></path>
+                </svg>
+                Открыть переводчик
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Преобразуйте текст в естественную речь</h1>
+            <p>Мощный инструмент для преобразования текста в речь с поддержкой множества языков и голосов</p>
+            <div class="hero-buttons">
+                <button id="hero-open-translator" class="hero-button primary">
+                    Начать сейчас
+                </button>
+                <a href="#how-it-works" class="hero-button secondary">
+                    Узнать больше
+                </a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                    <line x1="12" y1="19" x2="12" y2="23"></line>
+                    <line x1="8" y1="23" x2="16" y2="23"></line>
+                </svg>
+                <h3>Естественное звучание</h3>
+                <p>Реалистичные голоса, которые звучат как настоящие люди. Высокое качество синтеза речи для профессионального использования.</p>
+            </div>
+            <div class="feature-card">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 8l6 6"></path>
+                    <path d="M4 14l6-6 2-3"></path>
+                    <path d="M2 5h12"></path>
+                    <path d="M7 2h1"></path>
+                    <path d="M22 22l-5-10-5 10"></path>
+                    <path d="M14 18h6"></path>
+                </svg>
+                <h3>Множество языков</h3>
+                <p>Поддержка множества языков и диалектов, включая русский, английский, немецкий, французский, испанский, итальянский, японский, корейский и китайский.</p>
+            </div>
+            <div class="feature-card">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 6v6l4 2"></path>
+                </svg>
+                <h3>Мгновенное преобразование</h3>
+                <p>Быстрое преобразование текста в речь с возможностью скачивания. Сохраняйте аудиофайлы для использования в презентациях, обучающих материалах и других проектах.</p>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <h2>Как это работает</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Выберите язык</h3>
+                    <p>Выберите один из доступных языков для озвучивания вашего текста</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Выберите голос</h3>
+                    <p>Выберите предпочтительный голос из списка доступных для выбранного языка</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Введите текст</h3>
+                    <p>Введите или вставьте текст, который хотите преобразовать в речь</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Готово!</h3>
+                    <p>Прослушайте результат онлайн или скачайте аудиофайл для дальнейшего использования</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="use-cases">
+            <h2>Области применения</h2>
+            <div class="use-cases-grid">
+                <div class="use-case">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+                    </svg>
+                    <h3>Образование</h3>
+                    <p>Создавайте аудиоматериалы для обучения, озвучивайте учебники и презентации</p>
+                </div>
+                <div class="use-case">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
+                    <h3>Контент</h3>
+                    <p>Создавайте аудиоверсии статей, блогов и новостей</p>
+                </div>
+                <div class="use-case">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2v20"></path>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                    </svg>
+                    <h3>Бизнес</h3>
+                    <p>Создавайте профессиональные голосовые сообщения и рекламные материалы</p>
+                </div>
+                <div class="use-case">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                    <h3>Общение</h3>
+                    <p>Улучшайте доступность контента для людей с нарушениями зрения</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="translator-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Текст в речь</h2>
+                <button id="close-modal" class="close-button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="translator-container">
+                <div class="language-section">
+                    <h3>Выберите язык</h3>
+                    <select id="language-select">
+                        <option value="ru-RU">Русский</option>
+                        <option value="en-US">English (US)</option>
+                        <option value="en-GB">English (UK)</option>
+                        <option value="de-DE">Deutsch</option>
+                        <option value="es-ES">Español</option>
+                        <option value="fr-FR">Français</option>
+                        <option value="it-IT">Italiano</option>
+                        <option value="ja-JP">日本語</option>
+                        <option value="ko-KR">한국어</option>
+                        <option value="zh-CN">中文 (简体)</option>
+                        <option value="zh-TW">中文 (繁體)</option>
+                    </select>
+                </div>
+                <div class="voice-section">
+                    <h3>Выберите голос</h3>
+                    <select id="voice-select">
+                        <option value="">Загрузка голосов...</option>
+                    </select>
+                </div>
+                <div class="text-section">
+                    <textarea id="text-input" placeholder="Введите текст для озвучивания..."></textarea>
+                    <div class="buttons">
+                        <button id="play-button" class="primary-button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            Воспроизвести
+                        </button>
+                        <button id="stop-button" class="secondary-button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="4" y="4" width="16" height="16"></rect>
+                            </svg>
+                            Остановить
+                        </button>
+                        <button id="download-button" class="secondary-button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Скачать
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>О сервисе</h3>
+                <p>VoiceTranslator - современный сервис для преобразования текста в речь с поддержкой множества языков и голосов.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Поддерживаемые языки</h3>
+                <ul>
+                    <li>Русский</li>
+                    <li>English (US/UK)</li>
+                    <li>Deutsch</li>
+                    <li>Español</li>
+                    <li>Français</li>
+                    <li>И другие</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: support@voicetranslator.com</p>
+                <p>Телефон: +7 (999) 123-45-67</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 VoiceTranslator. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
